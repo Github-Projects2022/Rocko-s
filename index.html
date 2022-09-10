@@ -9,20 +9,44 @@
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-light navbar-expand-md py-3">
+        <nav class="navbar navbar-light py-3">
             <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-basket">
                             <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"></path>
                         </svg></span><span>Vitarich Philippines</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-2">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">Third Item</a></li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">About Us&nbsp;</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Our Company</a><a class="dropdown-item" href="#">Mission, Vision &amp; Core Values</a><a class="dropdown-item" href="#">Business Profile</a><a class="dropdown-item" href="#">Business Operations</a>
+                                <div class="nav-item dropdown"><a class="dropdown-toggle dropdown-item" aria-expanded="false" data-bs-toggle="dropdown" href="#">Leadership</a>
+                                    <div class="dropdown-menu" style="position: relative;margin: 0px 10px;"><a class="dropdown-item" href="#">Board of Directors</a><a class="dropdown-item" href="#">Management Committee</a><a class="dropdown-item" href="#">Officers</a></div>
+                                </div><a class="dropdown-item" href="#">Organizational Chart</a><a class="dropdown-item" href="#">Group Corporate Structure</a><a class="dropdown-item" href="#">Shareholding Structure</a><a class="dropdown-item" href="#">Articles of Incorporation/By laws</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Products</a></li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">Corporate Governance</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Manual on Corporate Governance</a><a class="dropdown-item" href="#">Code of Business Conduct and Ethics</a><a class="dropdown-item" href="#">Annual Corporate Governance Report (ACGR)</a><a class="dropdown-item" href="#">Board Committee</a><a class="dropdown-item" href="#">Corporate Social Responsibility</a><a class="dropdown-item" href="#">Company Policies</a><a class="dropdown-item" href="#">Enterprise Risk Management</a></div>
+                        </li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">Investor Relations</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Investor Relations Program</a><a class="dropdown-item" href="#">Investor Resources</a><a class="dropdown-item" href="#">Share Information</a></div>
+                        </li>
+                        <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">Company Disclosure</a>
+                            <div class="dropdown-menu show" data-bs-popper="none"><a class="dropdown-item" href="#">Our Company</a><a class="dropdown-item" href="#">Mission, Vision &amp; Core Values</a><a class="dropdown-item" href="#">Business Profile</a><a class="dropdown-item" href="#">Business Operations</a>
+                                <div class="nav-item dropdown"><a class="dropdown-toggle dropdown-item" aria-expanded="false" data-bs-toggle="dropdown" href="#">Leadership</a>
+                                    <div class="dropdown-menu" style="position: relative;margin: 0px 10px;"><a class="dropdown-item" href="#">Board of Directors</a><a class="dropdown-item" href="#">Management Committee</a><a class="dropdown-item" href="#">Officers</a></div>
+                                </div><a class="dropdown-item" href="#">Organizational Chart</a><a class="dropdown-item" href="#">Group Corporate Structure</a><a class="dropdown-item" href="#">Shareholding Structure</a><a class="dropdown-item" href="#">Articles of Incorporation/By laws</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">News</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Press Release</a><a class="dropdown-item" href="#">Events</a><a class="dropdown-item" href="#">Announcements</a></div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Careers</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Branch Locator</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,8 +69,8 @@
         <section>
             <div class="container py-4 py-xl-5">
                 <div class="row gy-4 gy-md-0">
-                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                        <div style="max-width: 350px;">
+                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-start align-items-center">
+                        <div>
                             <h2 class="text-uppercase fw-bold">WELCOME TO VITARICH PHILIPPINES</h2>
                             <p class="my-3">Founded in 1950, Vitarich Corporation grew to become one of the Philippines’ leading integrators and feeds manufacturer. Later expanded its service to fresh and freshly frozen food production catering to more Filipinos nationwide.</p><a class="btn btn-primary btn-lg me-2" role="button" href="#">READ MORE</a>
                         </div>
@@ -57,31 +81,47 @@
                 </div>
             </div>
         </section>
-        <section class="photo-gallery py-4 py-xl-5">
-            <div class="container">
+        <section>
+            <div class="container py-4 py-xl-5">
                 <div class="row mb-5">
                     <div class="col-md-8 col-xl-6 text-center mx-auto">
                         <h1>OUR PRODUCTS</h1>
                     </div>
                 </div>
-                <div class="row gx-5 gy-5 row-cols-1 row-cols-md-2 row-cols-xl-2 photos" data-bss-baguettebox="">
-                    <div class="col item" style="height: 300;"><a class="text-center" href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="text-decoration: none;color: var(--bs-body-color);"><img class="img-fluid" src="assets/img/pexels-anna-shvets-5760878.jpg">
-                            <h2>Feeds</h2>
-                        </a></div>
-                    <div class="col item" style="height: 300;"><a class="text-center" href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="text-decoration: none;color: var(--bs-body-color);"><img class="img-fluid" src="assets/img/pexels-chokniti-khongchum-2280549.jpg">
-                            <h2>Food</h2>
-                        </a></div>
-                    <div class="col item" style="height: 300;"><a class="text-center" href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="text-decoration: none;color: var(--bs-body-color);"><img class="img-fluid" src="assets/img/pexels-edward-jenner-4033148.jpg">
-                            <h2 style="text-decoration: none;color: var(--bs-body-color);">Animal Health</h2>
-                        </a></div>
-                    <div class="col item" style="height: 300;"><a class="text-center" href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="text-decoration: none;color: var(--bs-body-color);"><img class="img-fluid" src="assets/img/pexels-ksenia-chernaya-3965543.jpg">
-                            <h2>Livestock</h2>
-                        </a></div>
+                <div class="row gx-5 gy-5 row-cols-1 row-cols-md-2 row-cols-xl-2">
+                    <div class="col">
+                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/pexels-anna-shvets-5760878.jpg">
+                            <div class="py-4">
+                                <h4>Feeds</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/pexels-chokniti-khongchum-2280549.jpg">
+                            <div class="py-4">
+                                <h4>Food</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/pexels-edward-jenner-4033148.jpg">
+                            <div class="py-4">
+                                <h4>Animal Health</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/pexels-ksenia-chernaya-3965543.jpg">
+                            <div class="py-4">
+                                <h4>Livestock</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="py-4 py-xl-5">
-            <div class="container-fluid">
+        <section>
+            <div class="container-fluid py-4 py-xl-5">
                 <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
                     <div class="row g-0">
                         <div class="col-md-6" style="min-height: 250px;"><img class="w-100 h-100 fit-cover" src="assets/img/pexels-fauxels-3184465.jpg"></div>
@@ -96,8 +136,8 @@
                 </div>
             </div>
         </section>
-        <section class="py-5 py-xl-5" style="display: flex;">
-            <div class="container">
+        <section>
+            <div class="container py-4 py-xl-5">
                 <div class="row">
                     <div class="col">
                         <h1 class="d-flex justify-content-center">NEWS/ANNOUNCEMENT</h1>
