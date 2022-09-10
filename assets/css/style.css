@@ -162,3 +162,15 @@ select.noStyle {
     background-color: whitesmoke;
     color:#8B6C21 ;
 }
+.btnBO{
+    background: #FFF;
+    font-weight: 600;
+}
+.btnWelcome{
+    background-color: #8B6C21;
+    color: whitesmoke;
+}
+.btnWelcome:hover{
+    border-color: #8B6C21;
+    color: #8B6C21;
+}
