@@ -1,9 +1,9 @@
 .search-container {
-  background-color: #010101;
+  background-color: var(--bs-dark);
   z-index: 10;
-  width: 375px;
-  height: 45px;
-  border-radius: 20px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
 }
 
 .search {
@@ -27,15 +27,15 @@
 }
 
 .search svg {
-  font-size: 20px;
+  font-size: 1.5em;
   color: white;
   padding-right: 8px;
 }
 
 .stores-list-container {
-  width: 375px;
-  background-color: black;
-  border-radius: 25px;
+  width: 100%;
+  background-color: var(--bs-dark);
+  border-radius: 0 0 10px 10px;
   bottom: 20px;
 }
 
@@ -43,7 +43,7 @@
   padding-left: 20px;
   padding-right: 20px;
   overflow-y: scroll;
-  height: 100%;
+  height: 350px;
 }
 
 .store-container {
@@ -130,7 +130,7 @@ hr {
   min-width: 300px;
   font-size: 18px;
   padding: 8px;
-  background-color: black;
+  background-color: var(--bs-dark);
   margin: 0;
 }
 
