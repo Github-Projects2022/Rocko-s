@@ -1,0 +1,105 @@
+#carousel-1 .carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+  flex: 0 1 auto;
+  border: 0 !important;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-radius: 10px;
+}
+
+#carousel-1 .carousel-indicators {
+  gap: 15px;
+  margin-bottom: 4rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 150px;
+  height: 30px;
+  border: 0;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-radius: 20px;
+  background-color: var(--bs-gray-400);
+  opacity: 1;
+  text-indent: 0;
+}
+
+.carousel-indicators .active {
+  background-color: var(--bs-yellow);
+}
+
+.carousel-item img {
+  width: 400px !important;
+  margin: auto;
+}
+
+#carousel-1 .carousel-inner .carousel-item img, #carousel-4 .carousel-inner .carousel-item img {
+  width: 100% !important;
+}
+
+#carousel-1 .carousel-indicators {
+  position: absolute;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-control-next-icon::before {
+  content: "⏵";
+}
+
+.carousel-control-prev-icon::before {
+  content: "⏴";
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+  color: var(--bs-red);
+  text-decoration: none;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: var(--bs-yellow);
+  text-decoration: none;
+  font-size: 30px;
+  opacity: 1;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: none !important;
+}
+
+#carousel-4 .carousel-item {
+  width: 23%;
+  display: inline;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+#carousel-4 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: inline;
+}
+
+#branches {
+  background-color: var(--bs-gray-900);
+}
+
+.left {
+  background-color: var(--bs-yellow);
+}
+
+.right {
+  background-color: var(--bs-highlight-bg);
+}
+
+#products {
+  background-color: var(--bs-white);
+}
+
+#find-rockos {
+  background-color: var(--bs-white);
+  border: 0;
+  border-radius: 60px 60px 0 0;
+}
+
