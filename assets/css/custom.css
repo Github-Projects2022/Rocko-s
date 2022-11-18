@@ -103,3 +103,15 @@
   border-radius: 60px 60px 0 0;
 }
 
+.d-right {
+  background-color: var(--bs-highlight-bg);
+}
+
+.d-center {
+  background-color: var(--bs-highlight-bg);
+}
+
+.d-left {
+  background-color: var(--bs-red);
+}
+
