@@ -2,7 +2,6 @@
 var storeData = [];
 
 function genStoreCard(_storeData) {
-  console.log("here");
 
   $("#carousel-4 .carousel-inner").html("");
 
@@ -29,7 +28,6 @@ $.getJSON("assets/js/store-data.json", function(data){
      storeData.push(data[i]);
   });
   
-  console.log(storeData);
   genStoreCard(storeData);
 });
 
@@ -51,7 +49,6 @@ function fnCarousel(e) {
 
 
   $("#carousel-4 .carousel-control-next").on("click", function () {
-      console.log("next")
     if (scrollPosition < (carouselWidth - cardWidth * e)) {
       scrollPosition += cardWidth;
       $("#carousel-4 .carousel-inner").animate(
@@ -62,7 +59,6 @@ function fnCarousel(e) {
   });
 
   $("#carousel-4 .carousel-control-prev").on("click", function () {
-      console.log("prev")
     if (scrollPosition > 0) {
       scrollPosition -= cardWidth;
       $("#carousel-4 .carousel-inner").animate(
