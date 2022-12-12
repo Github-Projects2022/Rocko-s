@@ -24,7 +24,7 @@ function genStoreCard(_storeData) {
   $("#carousel-4 .carousel-inner .carousel-item:nth-child(1)").addClass("active");
 }
 
-$.getJSON("/assets/js/store-data.json", function(data){
+$.getJSON("assets/js/store-data.json", function(data){
   $.each(data, function (i) { 
      storeData.push(data[i]);
   });
