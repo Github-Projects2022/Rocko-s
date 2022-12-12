@@ -1,0 +1,257 @@
+[{
+    "name": "Rocko's Aliw",
+    "map": "https://maps.app.goo.gl/MCiZhzb8ndjTiJUV7",
+    "location": "Meycauayan",
+    "address": "Requino St, Meycauayan, Central Luzon",
+    "coordinates": {
+        "latitude": 14.653097992369483, 
+        "longitude": 121.05321929306855
+    }
+}, {
+    "name": "Rocko's Lawa",
+    "map": "https://goo.gl/maps/Ty24rVNDGmCmsCN98",
+    "location": "Meycauayan",
+    "address": "Lawa Rd, Meycauayan, 3020 Metro Manila",
+    "coordinates": {
+        "latitude": 14.696813852604457, 
+        "longitude": 121.03208542198297
+    }
+}, {
+    "name": "Rocko's Balubaran",
+    "map": "https://www.google.com/maps/place/PX2M%2BC69+Josefina+St+Balubaran+Malinta+Valenzuela,+Josefina+st+balubaran+Malinta,+Valenzuela/@14.7010262,120.9831223,15z/data=!4m6!3m5!1s0x3397b37ea6d5fe0d:0x858aa2fa92d2116e!8m2!3d14.7010262!4d120.9831223!16s%2Fg%2F11rqz8l_qz",
+    "location": "Valenzuela",
+    "address": "Josefina st balubaran Malinta, Valenzuela",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+}, {
+    "name": "Rocko's Malanday",
+    "map": "https://maps.app.goo.gl/35G7Us5d6gwNFTP66",
+    "location": "Valenzuela",
+    "address": "309 Marcelo H. Del Pilar St, Manila, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Fisher Mall Malabon",
+    "map": "https://maps.app.goo.gl/MCiZhzb8ndjTiJUV7",
+    "location": "Malabon",
+    "address": "Requino St, Meycauayan, Central Luzon",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Gen T",
+    "map": "https://www.google.com/maps/place/Rocko's+Herb-Roasted+Chicken/@14.6854875,120.9916059,15z/data=!4m6!3m5!1s0x3397b7fe675abee1:0x25dde0b9082cfcac!8m2!3d14.6855125!4d120.9915959!16s%2Fg%2F11f70y_jsv",
+    "location": "Valenzuela",
+    "address": "Market, Valenzuela,Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's BBB",
+    "map": "https://www.google.com/maps/place/Rocko's+Herb+Roasted+Chicken,+Market,+Lungsod+ng+Valenzuela,+1440+Kalakhang+Maynila/@14.6738991,120.9827534,15z/data=!4m6!3m5!1s0x3397b41f3865c2b3:0xe007653293469d36!8m2!3d14.6738991!4d120.9827534!16s%2Fg%2F11mq86nx3c",
+    "location": "Valenzuela",
+    "address": "Requino St, Meycauayan, Central Luzon",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Harmony",
+    "map": "https://www.google.com/maps/@14.786861,121.0289144,3a,75y,291.29h,74.58t/data=!3m6!1e1!3m4!1sRhcKn0DWpb6X4Il5YSrjzQ!2e0!7i16384!8i8192",
+    "location": "San Jose Del Monte",
+    "address": "Langit Rd, San Jose del Monte City",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's IBP",
+    "map": "https://goo.gl/maps/ohyQgnBaMkfvbJX96",
+    "location": "Batasan",
+    "address": "Batasan Rd, Quezon City, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Ever",
+    "map": "https://maps.app.goo.gl/14Bzxvmuu5LAN8Kf9v",
+    "location": "Batasan",
+    "address": "Pending",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Leongson",
+    "map": "https://goo.gl/maps/BNeJ3t9n3ukvQsQ5A",
+    "location": "Navotas",
+    "address": "458 Gov. A. Pascual St, Navotas,Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Navotas",
+    "map": "https://maps.app.goo.gl/uavaT3i9genL6WgY9",
+    "location": "Navotas",
+    "address": "71 F. Pascual St, Manila, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Lias",
+    "map": "https://maps.app.goo.gl/1CxAYoSnZSY24FMe8",
+    "location": "Marilao",
+    "address": "Mario Santiago Rd, Marilao",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Roxas",
+    "map": "https://goo.gl/maps/x42qDqhZR5VWJqGz8",
+    "location": "Tondo",
+    "address": "75 Roxas St, Tondo, Manila, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Sta. Quiteria",
+    "map": "https://goo.gl/maps/U55vUa2zUwVoSVMh6",
+    "location": "North Caloocan",
+    "address": "230 Santa Quiteria Rd, Caloocan, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Bagong Silang",
+    "map": "https://maps.app.goo.gl/wpt1F61WYjEM8EQcA",
+    "location": "North Caloocan",
+    "address": "Kanlaon St, Caloocan, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Comembo Makati",
+    "map": "https://maps.app.goo.gl/xK193vFPM2P1nWhB8",
+    "location": "Makati",
+    "address": "31 Bayabas, Makati, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Anonas",
+    "map": "https://maps.app.goo.gl/p1HQYeYTxYXkKpVy7",
+    "location": "Quezon City",
+    "address": "27 Molave, Project 3, Quezon City",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Libertad Pasay",
+    "map": "https://maps.app.goo.gl/LzS6j3EskpDMvafW8",
+    "location": "Pasay",
+    "address": "430 Antonio S. Arnaiz Ave, Pasay, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Buenamar",
+    "map": "https://maps.app.goo.gl/T652Y54UQaw8JepV7",
+    "location": "Novaliches",
+    "address": "39 Lourdes, Quezon City, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Libertad Mandaluyong",
+    "map": "https://maps.app.goo.gl/wYRonJ8sy3UvyMKC9",
+    "location": "Mandaluyong",
+    "address": "57 Sierra Madre, Mandaluyong, Kalakhang Maynila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Lifehomes Pasig",
+    "map": "https://maps.app.goo.gl/tbzRcfZnd93QggmG9",
+    "location": "Pasig",
+    "address": "10 Pres. Quezon, Pasig, 1609 Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Kiko  Camarin",
+    "map": "https://maps.app.goo.gl/JEgsQa8VViCmGtvv8",
+    "location": "South Caloocan",
+    "address": "Camarin Rd, Barangay 178, Caloocan, Metro Manila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Waltermart Malolos",
+    "map": "https://goo.gl/maps/CqUjRWNW8UiCyewKA",
+    "location": "Malolos",
+    "address": "WalterMart Shopping Center Malolos KM 45, MacArthur Hwy, Malolos, Bulacan",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Cainta",
+    "map": "https://maps.app.goo.gl/SP4ZRduZQDdFepeUA",
+    "location": "Cainta",
+    "address": "East Bank Rd, Cainta, Calabarzon",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+},
+{
+    "name": "Rocko's Bagumbayan",
+    "map": "https://maps.app.goo.gl/EPWT8Xpms7DSXUb39",
+    "location": "Taguig",
+    "address": "441 Dir. A. Bunye, Maynila, Kalakhang Maynila",
+    "coordinates": {
+        "latitude": 14.687218433977305, 
+        "longitude": 121.0911423595115
+    }
+}]
