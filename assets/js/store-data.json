@@ -4,8 +4,8 @@
     "location": "Meycauayan",
     "address": "Requino St, Meycauayan, Central Luzon",
     "coordinates": {
-        "latitude": 14.653097992369483, 
-        "longitude": 121.05321929306855
+        "latitude": 14.738073,
+        "longitude": 120.9601767
     }
 }, {
     "name": "Rocko's Lawa",
@@ -13,8 +13,8 @@
     "location": "Meycauayan",
     "address": "Lawa Rd, Meycauayan, 3020 Metro Manila",
     "coordinates": {
-        "latitude": 14.696813852604457, 
-        "longitude": 121.03208542198297
+        "latitude": 14.7329246,
+        "longitude": 120.9779285
     }
 }, {
     "name": "Rocko's Balubaran",
@@ -22,8 +22,8 @@
     "location": "Valenzuela",
     "address": "Josefina st balubaran Malinta, Valenzuela",
     "coordinates": {
-        "latitude": 14.687218433977305, 
-        "longitude": 121.0911423595115
+        "latitude": 14.7009942, 
+        "longitude": 120.9831222
     }
 }, {
     "name": "Rocko's Malanday",
@@ -31,12 +31,12 @@
     "location": "Valenzuela",
     "address": "309 Marcelo H. Del Pilar St, Manila, Metro Manila",
     "coordinates": {
-        "latitude": 14.687218433977305, 
-        "longitude": 121.0911423595115
+        "latitude": 14.7170004, 
+        "longitude": 120.95580675
     }
 },
 {
-    "name": "Rocko's Fisher Mall Malabon",
+    "name": "Rocko's Fisher Mall Malabon - TO BE FIXED",
     "map": "https://maps.app.goo.gl/MCiZhzb8ndjTiJUV7",
     "location": "Malabon",
     "address": "Requino St, Meycauayan, Central Luzon",
@@ -51,8 +51,8 @@
     "location": "Valenzuela",
     "address": "Market, Valenzuela,Metro Manila",
     "coordinates": {
-        "latitude": 14.687218433977305, 
-        "longitude": 121.0911423595115
+        "latitude": 14.6855125, 
+        "longitude": 120.9915959
     }
 },
 {
@@ -61,8 +61,8 @@
     "location": "Valenzuela",
     "address": "Requino St, Meycauayan, Central Luzon",
     "coordinates": {
-        "latitude": 14.687218433977305, 
-        "longitude": 121.0911423595115
+        "latitude": 14.6738991, 
+        "longitude": 120.98275345
     }
 },
 {
@@ -71,8 +71,8 @@
     "location": "San Jose Del Monte",
     "address": "Langit Rd, San Jose del Monte City",
     "coordinates": {
-        "latitude": 14.687218433977305, 
-        "longitude": 121.0911423595115
+        "latitude": 14.7863296, 
+        "longitude": 121.0292175
     }
 },
 {
@@ -81,12 +81,12 @@
     "location": "Batasan",
     "address": "Batasan Rd, Quezon City, Metro Manila",
     "coordinates": {
-        "latitude": 14.687218433977305, 
-        "longitude": 121.0911423595115
+        "latitude": 14.6866939, 
+        "longitude": 121.0913173
     }
 },
 {
-    "name": "Rocko's Ever",
+    "name": "Rocko's Ever - TO BE FIXED",
     "map": "https://maps.app.goo.gl/14Bzxvmuu5LAN8Kf9v",
     "location": "Batasan",
     "address": "Pending",

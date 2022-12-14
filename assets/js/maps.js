@@ -3,33 +3,32 @@ var markers = [];
 var infoWindow;
 
 function initMap() {
-  var ncrMap = {
-      lat: 14.694399,
-      lng: 121.045612
-  }
-  map = new google.maps.Map(document.getElementById('map'), {center: ncrMap, zoom: 8});
-  infoWindow = new google.maps.InfoWindow();
-  searchStores();
+    var ncrMap = {
+        lat: 14.694399,
+        lng: 121.045612
+    }
+    map = new google.maps.Map(document.getElementById('map'), {center: ncrMap, zoom: 8});
+    infoWindow = new google.maps.InfoWindow();
 }
 
 function searchStores(){
   var foundStores = [];
-  var search = document.getElementById('search').value;
+  var search = (document.getElementById('search').value).toUpperCase();;
   if (search){
-      stores.forEach(function(store){
-          var postal = store.addressLines[0].substring(0,search.length);
-          if (postal == search){
+        storeData.forEach(function(store){
+          var loc = ((store.location).toUpperCase()).substring(0,search.length);
+          if (loc == search){
               foundStores.push(store);
           }
       });
       
   }else{
-      foundStores = stores;
+      foundStores = storeData;
   }
   clearLocations();
   displayStores(foundStores);
   showStoresMarkers(foundStores);
-  setOnClickListener()
+  setOnClickListener();
 }
 
 function clearLocations() {
@@ -52,17 +51,16 @@ function setOnClickListener(){
 function displayStores(stores){
   var storesHTML = "";
   stores.forEach(function(store,index){
-      var address = store.addressLines;
-      var phone = store.phoneNumber;
+      var address = store.address;
+      var location = store.location;
       storesHTML += `
           <div class="store-container">
               <div class="store-container-background">
                   <div class="store-info-container">
                       <div class="store-address">
-                          <span>${address[0]}</span>
-                          <span>${address[1]}</span> 
+                          <span>${address}</span> 
                       </div>
-                      <div class="store-phone-number">${phone}</div>
+                      <div class="store-phone-number">${location}</div>
                   </div>
                   <div class="store-number-container">
                       <div class="store-number"> ${index+1} </div>
@@ -81,15 +79,15 @@ function showStoresMarkers(stores){
           store.coordinates.latitude,
           store.coordinates.longitude);
       var name = store.name;
-      var address = store.addressLines[0];
-      var phone = store.phoneNumber;
-      bounds.extend(latlng);
-      createMarker(latlng, name, address, phone, index)
+      var address = store.address;
+      var location = store.location;
+      bounds.extend(latlng);    
+      createMarker(latlng, name, address, location, index)
   })
   map.fitBounds(bounds);
 }
 
-function createMarker(latlng, name, address, phone, index) {
+function createMarker(latlng, name, address, location, index) {
   var html = `
       <div class="store-info-window">
           <div class="store-info-name">
@@ -105,7 +103,7 @@ function createMarker(latlng, name, address, phone, index) {
           <div class="circle">
               <i class="fas fa-phone-alt"></i>
           </div>
-              ${phone}
+              ${location}
           </div>
           
       </div>

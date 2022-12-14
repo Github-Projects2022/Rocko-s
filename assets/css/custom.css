@@ -81,7 +81,7 @@
   background-color: var(--bs-white);
 }
 
-#find-rockos {
+#find-rockos div {
   background-color: var(--bs-white);
   border: 0;
   border-radius: 60px 60px 0 0;
@@ -114,6 +114,7 @@
 #carousel-4 .card {
   margin: 0 0.5em;
   min-height: 250px;
+  background-color: var(--bs-yellow);
 }
 
 #carousel-4 .card .img-wrapper {
@@ -173,11 +174,10 @@
 }
 
 .right-heading img {
-  max-height: 19em;
+  max-height: 18em;
 }
 
 .right-heading {
-  /*margin-top: -5em;*/
   z-index: 1;
   text-align: center;
 }
@@ -190,7 +190,7 @@
   .right-heading img {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -4em;
+    margin-bottom: -6em;
   }
 }
 
@@ -293,5 +293,34 @@ iframe {
 
 #carousel-4 .card-text {
   min-height: 72px;
+}
+
+#partners img {
+  object-fit: contain;
+  max-width: 75%;
+}
+
+#find-rockos {
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  #find-rockos {
+    margin-top: -3em;
+  }
+}
+
+:root {
+  --bs-yellow: #ffa800;
+}
+
+@media (min-width: 1200px) {
+  .modal-dialog {
+    min-width: 1200px;
+  }
+}
+
+#carousel-5 .carousel-item img {
+  width: 30em !important;
 }
 

@@ -10,7 +10,7 @@ function genStoreCard(_storeData) {
     <div class=\"carousel-item\">\
         <div class=\"card\">\
             <div class=\"card-body\">\
-                <h6 class=\"text-muted card-subtitle mb-2\">" + _storeData[i].location + "</h6>\
+                <h6 class=\"  card-subtitle mb-2\">" + _storeData[i].location + "</h6>\
                 <h4 class=\"card-title d-flex align-items-end\">" + _storeData[i].name + "</h4>\
                 <p class=\"card-text\">" + _storeData[i].address + "</p>\
                 <a class=\"card-link btn btn-danger\" href=\"" + _storeData[i].map + "\" target=\"_blank\">Directions</a>\
@@ -29,9 +29,8 @@ $.getJSON("assets/js/store-data.json", function(data){
   });
   
   genStoreCard(storeData);
+  searchStores();
 });
-
-
 //STORE BRANCHES JS END
 
 //CAROUSEL CUSTOM JS

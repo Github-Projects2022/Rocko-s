@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/maps.css">
 </head>
 
 <body><nav id="navbar" class="navbar navbar-expand-lg py-0 px-3">
@@ -18,7 +19,6 @@
                 <li class="nav-item mx-3"><a class="nav-link active" href="#">Home</a></li>
                 <li class="nav-item mx-3"><a class="nav-link" href="#">Products</a></li>
                 <li class="nav-item mx-3"><a class="nav-link" href="#">Branches</a></li>
-                <li class="nav-item mx-3"><a class="nav-link" href="#">Contact</a></li>
                 <li class="nav-item mx-3"><a class="nav-link" href="#">About</a></li>
             </ul><i class="fab fa-facebook-f fs-4 m-3"></i>
         </div>
@@ -69,6 +69,20 @@
                             <li class="active" data-bs-target="#carousel-3" data-bs-slide-to="0">Classic Crunch</li>
                             <li data-bs-target="#carousel-3" data-bs-slide-to="1">Spicy Favorite</li>
                         </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col px-2">
+                    <div class="fw-semibold carousel slide" id="carousel-5" data-bs-ride="false">
+                        <div class="col-md-8 col-xl-6 text-center mx-auto">
+                            <h2 class="text-white bg-danger border rounded-pill w-75 w-sm-50 mx-auto py-2 mt-3">New Product</h2>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active py-3"><img class="img-fluid d-block mx-auto" src="assets/img/chickenillo.jpg" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="img-fluid d-block mx-auto w-100" src="assets/img/rockos-fc.jpg" alt="Slide Image"></div>
+                        </div>
+                        <h1 class="text-center">Chickenillo</h1>
                     </div>
                 </div>
             </div>
@@ -154,34 +168,31 @@
                         <div class="col-12 col-lg-6 col-xl-7 d-flex d-sm-flex align-items-center left-heading">
                             <div class="left-heading-text">
                                 <h1 class="fw-bold">We serve the best Quality Food&nbsp;</h1>
-                                <p class="lead">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p>
+                                <p>Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-5 d-flex d-sm-flex d-md-flex d-lg-flex order-first justify-content-lg-center order-lg-last right-heading"><img src="assets/img/fast-food-restaurant-staff-clipart-xl.png"></div>
                     </div>
-                    <div class="row g-0">
-                        <div class="col text-center">
-                            <div id="find-rockos" class="px-5 py-4">
-                                <h3 class="fw-bold">Find our nearest store</h3><a class="btn btn-danger btn-lg text-uppercase fs-3 fw-bold text-center border rounded-pill w-75 w-sm-50" role="button">Find Rocko's</a>
+                    <div class="row">
+                        <div class="col text-center order-2 order-lg-3" id="find-rockos">
+                            <div class="px-5 py-4">
+                                <h3 class="fw-bold">Find our nearest store</h3><a class="btn btn-danger btn-lg text-uppercase fs-3 fw-bold text-center border rounded-pill w-75 w-sm-50" role="button" data-bs-target="#store-locator" data-bs-toggle="modal">Find Rocko's</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 right">
-                    <div class="row gx-0 gy-0">
-                        <div class="col-md-12 px-3 py-5 p-sm-5">
-                            <div class="row gx-0 gy-0 mb-2">
-                                <div class="col text-start">
-                                    <h1 class="fw-bold">Our Delivery Partner</h1>
-                                    <p class="lead w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
+                <div class="col-md-6 d-lg-flex order-3 order-md-2 align-items-lg-center right">
+                    <div class="row g-0 px-3 py-5 p-sm-5">
+                        <div class="col-md-12">
+                            <div class="row g-0">
+                                <div class="col text-start mb-4">
+                                    <h1 class="fw-bold">Our Delivery Partners</h1>
+                                    <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
                                 </div>
                             </div>
-                            <div class="row gx-0 gy-2 row-cols-1 row-cols-lg-2 d-xl-flex justify-content-center mb-5">
-                                <div class="col d-flex justify-content-center"><img class="w-75" src="assets/img/1400x800.png"></div>
-                                <div class="col d-flex justify-content-center"><img class="w-75" src="assets/img/1400x800.png"></div>
-                            </div>
-                            <div class="row gx-0 gy-0">
-                                <div class="col d-flex justify-content-center"><a class="btn btn-light btn-lg fs-4 fw-bold text-center link-danger border rounded-pill" role="button">Contact Us</a></div>
+                            <div class="row gx-5 gy-5 row-cols-sm-2 row-cols-md-1 row-cols-lg-2 d-xl-flex" id="partners">
+                                <div class="col d-flex justify-content-center"><img class="img-fluid" src="assets/img/grab-food.png"></div>
+                                <div class="col d-flex justify-content-center"><img class="img-fluid" src="assets/img/food-panda.png"></div>
                             </div>
                         </div>
                     </div>
@@ -233,9 +244,48 @@
             <p class="mb-0">Copyright © 2022 Brand</p>
         </div>
     </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="store-locator">
+        <div class="modal-dialog modal-fullscreen-lg-down" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-white bg-danger">
+                    <h4 class="modal-title">Store Locator</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row w-100">
+                        <div class="col-sm-12 col-md-4 p-0">
+                            <div class="search-container">
+                                <div class="search"><input type="text" id="search" placeholder="Search" onchange="searchStores()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" onclick="searchStores()">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path>
+                                    </svg></div>
+                            </div>
+                            <div class="stores-list-container" style="max-height: 350px;">
+                                <div class="stores-list">
+                                    <div class="store-container">
+                                        <div class="store-info-container">
+                                            <div class="store-address"><span>040 Masaya Street, Philcoa</span><span>Diliman, Quezon City</span></div>
+                                            <div class="store-phone-number"><span>0919-599-5294</span></div>
+                                        </div>
+                                        <div class="store-number-container">
+                                            <div class="store-number"><span>1</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-8 p-0">
+                            <div id="map" style="height: 400px;width: 100%;border: 0;border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBImeeitkm-wI-p8SfcYAjy5UyEpb5ciVA&amp;callback=initMap"></script>
 </body>
 
 </html>
