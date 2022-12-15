@@ -329,12 +329,13 @@ iframe {
 }
 
 hr {
+  position: relative;
   background-color: transparent;
   border: none;
   height: 150px;
   margin: 0;
   margin-top: -150px;
-  z-index: -99;
+  z-index: -1;
 }
 
 #scrollTop {
