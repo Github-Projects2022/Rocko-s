@@ -33,7 +33,7 @@ $.getJSON("assets/js/store-data.json", function(data){
 });
 //STORE BRANCHES JS END
 
-//CAROUSEL CUSTOM JS
+//CAROUSEL AND NAVBAR CUSTOM JS
 var multipleCardCarousel = document.querySelector("#carousel-4");
 var carousel = new bootstrap.Carousel(multipleCardCarousel, {
   interval: false
@@ -69,7 +69,6 @@ function fnCarousel(e) {
 }
 
 $(window).bind('load resize' ,function(){
-  
   carouselWidth = $("#carousel-4 .carousel-inner")[0].scrollWidth;
   cardWidth = $("#carousel-4 .carousel-item").width();
   scrollPosition = 0;
@@ -133,4 +132,16 @@ $(window).bind('load resize' ,function(){
 });
   
 fnCarousel(carouselSlides);
-//CAROUSEL CUSTOM JS END
+
+$(window).bind('load', function (e) {
+  $("#scrollTop").addClass("hidden");
+});
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    $("#scrollTop").removeClass('hidden');
+  } else {
+    $("#scrollTop").addClass('hidden');
+  }
+ });
+//CAROUSEL AND NAVBAR CUSTOM JS END

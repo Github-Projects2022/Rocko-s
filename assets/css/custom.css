@@ -36,7 +36,9 @@
 }
 
 #carousel-1 .carousel-inner .carousel-item img {
-  width: 100% !important;
+  object-fit: cover !important;
+  height: 100% !important;
+  min-height: 20em;
 }
 
 #carousel-1 .carousel-indicators {
@@ -204,6 +206,7 @@ svg {
 iframe {
   width: 22em;
   height: 15em;
+  min-width: 5em;
 }
 
 @media (max-width: 990px) {
@@ -215,6 +218,7 @@ iframe {
 @media (min-width: 991px) {
   .navbar {
     background: linear-gradient(0deg, #6e6e6e00 0%, var(--bs-black) 88%);
+    z-index: 99;
   }
 }
 
@@ -322,5 +326,42 @@ iframe {
 
 #carousel-5 .carousel-item img {
   width: 30em !important;
+}
+
+hr {
+  background-color: transparent;
+  border: none;
+  height: 150px;
+  margin: 0;
+  margin-top: -150px;
+  z-index: -99;
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: var(--bs-yellow);
+  color: var(--bs-black) !important;
+  padding: .5em;
+  border-radius: 8em;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  z-index: 99;
+  margin: 0;
+}
+
+#scrollTop a i {
+  font-size: 2em;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#carousel-1 {
+  min-height: 20em;
 }
 
