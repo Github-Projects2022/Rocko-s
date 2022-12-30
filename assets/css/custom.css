@@ -14,7 +14,7 @@
 }
 
 .carousel-indicators [data-bs-target] {
-  width: 12em;
+  width: 10em;
   height: 1.5em;
   border: 0;
   border-top: 10px;
@@ -25,6 +25,7 @@
   text-indent: 0;
   text-align: center;
   padding: 2px;
+  margin-bottom: .5em;
 }
 
 .carousel-indicators .active {
@@ -33,6 +34,8 @@
 
 #carousel-2 .carousel-item img, #carousel-3 .carousel-item img {
   width: 18em !important;
+  object-fit: contain;
+  height: 18em !important;
 }
 
 #carousel-1 .carousel-inner .carousel-item img {
@@ -49,6 +52,8 @@
   position: relative;
   width: 100%;
   margin: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
@@ -364,5 +369,18 @@ hr {
 
 #carousel-1 {
   min-height: 20em;
+}
+
+#carousel-2 .carousel-indicators [data-bs-target], #carousel-3 .carousel-indicators [data-bs-target] {
+  min-width: 10em !important;
+}
+
+#carousel-2 .carousel-item p {
+  /*width: 30em !important;*/
+  margin: auto;
+  margin-bottom: 1.5em;
+  min-width: 10em !important;
+  max-width: 45em !important;
+  min-height: 7em !important;
 }
 
