@@ -43,6 +43,7 @@ var carouselWidth = 0;
 var cardWidth = 0;
 var scrollPosition = 0;
 var carouselSlides = 0;
+var carouselHeading = 0;
 
 function fnCarousel(e) {
 
@@ -67,8 +68,10 @@ function fnCarousel(e) {
     }
   });
 }
-
 $(window).bind('load resize' ,function(){
+  carouselHeading =  $("#carousel-2 .carousel-heading").css("height");
+  $("#carousel-2 .blank-item").css("height", carouselHeading);
+
   carouselWidth = $("#carousel-4 .carousel-inner")[0].scrollWidth;
   cardWidth = $("#carousel-4 .carousel-item").width();
   scrollPosition = 0;

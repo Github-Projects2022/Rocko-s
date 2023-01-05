@@ -384,3 +384,16 @@ hr {
   min-height: 7em !important;
 }
 
+#carousel-2 .carousel-heading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 18em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'chalkduster-regular';
+}
+
