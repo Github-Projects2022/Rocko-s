@@ -375,7 +375,7 @@ hr {
   min-width: 10em !important;
 }
 
-#carousel-2 .carousel-item p {
+.carousel-item p {
   /*width: 30em !important;*/
   margin: auto;
   margin-bottom: 1.5em;
@@ -384,7 +384,7 @@ hr {
   min-height: 7em !important;
 }
 
-#carousel-2 .carousel-heading {
+.carousel-heading {
   position: absolute;
   left: 0;
   right: 0;

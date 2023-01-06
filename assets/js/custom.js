@@ -69,8 +69,8 @@ function fnCarousel(e) {
   });
 }
 $(window).bind('load resize' ,function(){
-  carouselHeading =  $("#carousel-2 .carousel-heading").css("height");
-  $("#carousel-2 .blank-item").css("height", carouselHeading);
+  carouselHeading =  $(".carousel-heading").css("height");
+  $(".blank-item").css("height", carouselHeading);
 
   carouselWidth = $("#carousel-4 .carousel-inner")[0].scrollWidth;
   cardWidth = $("#carousel-4 .carousel-item").width();
