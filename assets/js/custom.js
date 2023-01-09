@@ -11,7 +11,7 @@ function genStoreCard(_storeData) {
         <div class=\"card\">\
             <div class=\"card-body\">\
                 <h6 class=\"  card-subtitle mb-2\">" + _storeData[i].location + "</h6>\
-                <h4 class=\"card-title d-flex align-items-end\">" + _storeData[i].name + "</h4>\
+                <h5 class=\"card-title d-flex align-items-end\">" + _storeData[i].name + "</h4>\
                 <p class=\"card-text\">" + _storeData[i].address + "</p>\
                 <a class=\"card-link btn btn-danger\" href=\"" + _storeData[i].map + "\" target=\"_blank\">Directions</a>\
             </div>\

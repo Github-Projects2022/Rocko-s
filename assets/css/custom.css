@@ -40,8 +40,8 @@
 
 #carousel-1 .carousel-inner .carousel-item img {
   object-fit: cover !important;
-  height: 100% !important;
-  min-height: 20em;
+  height: 40em !important;
+  min-height: 15em;
 }
 
 #carousel-1 .carousel-indicators {
@@ -74,6 +74,10 @@
 
 #branches {
   background-color: var(--bs-gray-900);
+  background-image: url("../../assets/img/rockos-bg.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-blend-mode: overlay;
 }
 
 .left {
@@ -181,7 +185,7 @@
 }
 
 .right-heading img {
-  max-height: 18em;
+  max-height: 16em;
 }
 
 .right-heading {
@@ -191,6 +195,12 @@
 
 .left-heading-text h1, .left-heading-text p {
   text-shadow: #000 2px 2px 5px;
+}
+
+@media (max-width: 992px) {
+  .left-heading-text h1, .left-heading-text p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 992px) {
@@ -209,7 +219,7 @@ svg {
 }
 
 iframe {
-  width: 22em;
+  width: 30em;
   height: 15em;
   min-width: 5em;
 }
@@ -297,11 +307,11 @@ iframe {
 }
 
 #carousel-4 .card-title {
-  min-height: 57px;
+  min-height: 3em;
 }
 
 #carousel-4 .card-text {
-  min-height: 72px;
+  min-height: 5em !important;
 }
 
 #partners img {
@@ -330,7 +340,7 @@ iframe {
 }
 
 #carousel-5 .carousel-item img {
-  width: 30em !important;
+  width: 35em !important;
 }
 
 hr {
@@ -378,7 +388,6 @@ hr {
 .carousel-item p {
   /*width: 30em !important;*/
   margin: auto;
-  margin-bottom: 1.5em;
   min-width: 10em !important;
   max-width: 45em !important;
   min-height: 7em !important;
@@ -393,11 +402,39 @@ hr {
   margin-right: auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'chalkduster-regular';
 }
 
 .blank-item {
   height: 5em;
+}
+
+.logo {
+  width: 10em;
+}
+
+.logo-big {
+  width: 20em;
+}
+
+.about-us-img {
+  object-fit: cover;
+  width: 23em;
+  height: 23em;
+}
+
+@media (max-width: 992px) {
+  .right h1 {
+    text-align: center;
+  }
+}
+
+footer a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bs-light) !important;
 }
 
