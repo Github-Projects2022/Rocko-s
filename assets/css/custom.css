@@ -235,7 +235,7 @@ iframe {
 
 @media (min-width: 991px) {
   .navbar {
-    background: linear-gradient(0deg, #6e6e6e00 0%, var(--bs-black) 88%);
+    background: linear-gradient(0deg, #ffffff00 0%, var(--bs-black) 100%);
     z-index: 99;
   }
 }
@@ -268,7 +268,7 @@ iframe {
     --bs-navbar-toggler-border-radius: 0.375rem;
     --bs-navbar-toggler-focus-width: 0.25rem;
     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-    position: relative;
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -464,7 +464,7 @@ section {
   display: none;
 }
 
-#carousel-1, #products, #branches, #media {
+#carousel-1, #products, #branches, #media, #find {
   display: block;
 }
 
