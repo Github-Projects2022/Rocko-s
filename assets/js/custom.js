@@ -15,25 +15,25 @@ function runDisplay(cssVis) {
 
   return def;
 }
-$("#link-logo").on("click", function () {
+$(".link-logo").on("click", function () {
   var cssVis = $("#carousel-1").css("display");
   lastClick = "#top";
   runDisplay(cssVis);
 });
 
-$("#link-about").on("click", function () {
+$(".link-about").on("click", function () {
   var cssVis = $("#about").css("display");
   lastClick = "#about";
   runDisplay(cssVis);
 });
 
-$("#link-home").on("click", function () {
+$(".link-home").on("click", function () {
   var cssVis = $("#carousel-1").css("display");
   lastClick = "#top";
   runDisplay(cssVis);
 });
 
-$("#link-products").on("click", function () {
+$(".link-products").on("click", function () {
   var cssVis = $("#products").css("display");
   lastClick = "#products"
   runDisplay(cssVis).done(function(){
@@ -42,7 +42,7 @@ $("#link-products").on("click", function () {
   });
 });
 
-$("#link-branches").on("click", function () {
+$(".link-branches").on("click", function () {
   var cssVis = $("#branches").css("display");
   lastClick = "#branches";
   runDisplay(cssVis).done(function(){
