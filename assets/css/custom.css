@@ -38,9 +38,15 @@
   height: 18em !important;
 }
 
+@media (max-width: 992px) {
+  #carousel-1 .carousel-inner .carousel-item img {
+    height: 47em !important;
+  }
+}
+
 #carousel-1 .carousel-inner .carousel-item img {
-  object-fit: cover !important;
-  height: 40em !important;
+  object-fit: cover;
+  height: 40em;
   min-height: 15em;
 }
 
@@ -73,15 +79,11 @@
 }
 
 #branches {
-  background-color: var(--bs-gray-900);
-  background-image: url("../../assets/img/rockos-bg.jpg");
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-blend-mode: overlay;
+  background-color: #f4dbaa;
 }
 
-.left {
-  background-color: var(--bs-yellow);
+#vision-mission .left {
+  background-color: var(--bs-red);
 }
 
 .right {
@@ -103,11 +105,9 @@
 }
 
 .d-center {
-  background-color: var(--bs-highlight-bg);
 }
 
 .d-left {
-  background-color: var(--bs-red);
 }
 
 #carousel-4 .carousel-control-prev, #carousel-4 .carousel-control-next {
@@ -126,6 +126,9 @@
   margin: 0 0.5em;
   min-height: 250px;
   background-color: var(--bs-yellow);
+  background-image: url("../../assets/img/rockos-bg.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
 }
 
 #carousel-4 .card .img-wrapper {
@@ -193,7 +196,7 @@
   text-align: center;
 }
 
-.left-heading-text h1, .left-heading-text p {
+.left-heading-text h1, .left-heading-text p, #media h1 {
   text-shadow: #000 2px 2px 5px;
 }
 
@@ -238,7 +241,7 @@ iframe {
 }
 
 @media (min-width: 992px) {
-  #navbar .fab.fa-facebook-f, #navbar #navcol-4 #navcol-3 {
+  #navbar #navcol-4 #navcol-3 {
     color: #fff;
   }
 }
@@ -436,5 +439,45 @@ footer a {
 
 body {
   background-color: var(--bs-light) !important;
+}
+
+#vision-mission {
+  color: var(--bs-dark);
+  background: var(--bs-yellow);
+}
+
+#media {
+  background-color: var(--bs-yellow);
+}
+
+.left {
+  background-color: var(--bs-yellow);
+}
+
+section {
+  position: relative;
+}
+
+#about, #vision-mission {
+  display: none;
+}
+
+#carousel-1, #products, #branches, #media {
+  display: block;
+}
+
+#media a svg {
+  border-radius: 100%;
+  box-shadow: #000 2px 2px 8px;
+}
+
+#navbar svg path {
+  fill: #ffffff;
+}
+
+@media (max-width: 992px) {
+  #navbar svg path {
+    fill: #000000;
+  }
 }
 

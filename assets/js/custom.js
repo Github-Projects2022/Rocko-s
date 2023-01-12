@@ -1,3 +1,57 @@
+//NAVBAR SCROLLSPY JS
+var def = $.Deferred();
+var lastClick;
+
+function runDisplay(cssVis) {
+
+  if(cssVis == "none") {
+    $("#carousel-1, #products, #branches, #media, #find").fadeToggle();
+    $("#about, #vision-mission").fadeToggle();
+    setTimeout(2000);
+    $(lastClick).click();
+  }
+
+  def.resolve();
+
+  return def;
+}
+$("#link-logo").on("click", function () {
+  var cssVis = $("#carousel-1").css("display");
+  lastClick = "#top";
+  runDisplay(cssVis);
+});
+
+$("#link-about").on("click", function () {
+  var cssVis = $("#about").css("display");
+  lastClick = "#about";
+  runDisplay(cssVis);
+});
+
+$("#link-home").on("click", function () {
+  var cssVis = $("#carousel-1").css("display");
+  lastClick = "#top";
+  runDisplay(cssVis);
+});
+
+$("#link-products").on("click", function () {
+  var cssVis = $("#products").css("display");
+  lastClick = "#products"
+  runDisplay(cssVis).done(function(){
+    setTimeout(1500);
+    $("#a-products").scrollPosition;
+  });
+});
+
+$("#link-branches").on("click", function () {
+  var cssVis = $("#branches").css("display");
+  lastClick = "#branches";
+  runDisplay(cssVis).done(function(){
+    setTimeout(1500);
+    $("#a-branches").scrollPosition;
+  });
+});
+//NAVBAR SCROLLSPY END JS
+
 //STORE BRANCHES JS
 var storeData = [];
 
