@@ -111,15 +111,15 @@
 }
 
 #carousel-4 .carousel-control-prev, #carousel-4 .carousel-control-next {
-  width: 1.5em;
+  width: 1em;
 }
 
 #carousel-4 .carousel-control-prev {
-  left: -1em;
+  left: -.8em;
 }
 
 #carousel-4 .carousel-control-next {
-  right: -1em;
+  right: -.8em;
 }
 
 #carousel-4 .card {
