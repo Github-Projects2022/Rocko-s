@@ -52,41 +52,6 @@ $(".link-branches").on("click", function () {
 });
 //NAVBAR SCROLLSPY END JS
 
-//STORE BRANCHES JS
-var storeData = [];
-
-function genStoreCard(_storeData) {
-
-  $("#carousel-4 .carousel-inner").html("");
-
-  $.each(_storeData, function (i) { 
-    $("#carousel-4 .carousel-inner").append("\
-    <div class=\"carousel-item\">\
-        <div class=\"card\">\
-            <div class=\"card-body\">\
-                <h6 class=\"  card-subtitle mb-2\">" + _storeData[i].location + "</h6>\
-                <h5 class=\"card-title d-flex align-items-end\">" + _storeData[i].name + "</h4>\
-                <p class=\"card-text\">" + _storeData[i].address + "</p>\
-                <a class=\"card-link btn btn-danger\" href=\"" + _storeData[i].map + "\" target=\"_blank\">Directions</a>\
-            </div>\
-        </div>\
-    </div>\
-    ");
-  });
-
-  $("#carousel-4 .carousel-inner .carousel-item:nth-child(1)").addClass("active");
-}
-
-$.getJSON("assets/js/store-data.json", function(data){
-  $.each(data, function (i) { 
-     storeData.push(data[i]);
-  });
-  
-  genStoreCard(storeData);
-  searchStores();
-});
-//STORE BRANCHES JS END
-
 //CAROUSEL AND NAVBAR CUSTOM JS
 var multipleCardCarousel = document.querySelector("#carousel-4");
 var carousel = new bootstrap.Carousel(multipleCardCarousel, {
