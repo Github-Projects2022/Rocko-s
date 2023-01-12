@@ -343,7 +343,9 @@ iframe {
 }
 
 #carousel-5 .carousel-item img {
-  width: 35em !important;
+  object-fit: cover;
+  width: 25em;
+  height: 12em;
 }
 
 hr {
